@@ -30,7 +30,7 @@ If the current tab is not a Telegraph page, the popup will ask you to open one f
 
 ## Development (for maintainers)
 
-To create the direct-download ZIP: run `npm install`, then `npm run build`. The build outputs to `build/` and zips it into `zip/telegraph-media-downloader-1.0.0.zip`. Commit the `zip/` folder so the Installation link above works (replace `YOUR_USERNAME` and `YOUR_REPO` with your repo).
+To create the direct-download ZIP: run `npm install`, then `npm run build`. The build outputs to `build/` and zips it into `zip/telegraph-media-downloader-1.0.0.zip`.
 
 - `npm run build` — production build (output in `build/`, build zipped in `zip/`).
 - `npm start` — dev server (if configured).
