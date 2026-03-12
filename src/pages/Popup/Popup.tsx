@@ -71,7 +71,7 @@ const Popup: React.FC = () => {
       <div className="tmd-head">
         <h1 className="tmd-title">Telegraph Media Downloader</h1>
         <p className="tmd-desc">
-          Download all photos, videos & GIFs from this article as a ZIP. Works on Telegraph (Telegram’s publishing platform) at telegra.ph and graph.org.
+          Download all photos, videos & GIFs from this article as a ZIP.
         </p>
       </div>
 
