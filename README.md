@@ -49,7 +49,11 @@ No login, no setup — open a Telegraph page, click the extension, choose an opt
 
 ## Installation
 
-### 1. Build the extension
+### 1. Download the extension (direct)
+
+**[Download telegraph-media-downloader-1.0.0.zip](https://github.com/alex-ageev/telegraph-media-downloader/raw/main/zip/telegraph-media-downloader-1.0.0.zip)** — unzip the file, then in Chrome load the **unzipped folder** (see step 2).
+
+### Or build from source
 
 ```bash
 npm install
@@ -63,7 +67,7 @@ The extension is compiled into `build/`. A distributable ZIP is created in `zip/
 1. Open **chrome://extensions/**.
 2. Enable **Developer mode** (top-right).
 3. Click **Load unpacked**.
-4. Select the **`build`** folder (or the folder from the unzipped release).
+4. Select the **unzipped folder** (from the downloaded ZIP) or the **`build`** folder (if you built from source).
 
 Works in Chrome, Edge, Brave, Arc, and other Chromium-based browsers.
 
