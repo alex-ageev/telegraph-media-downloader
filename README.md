@@ -1,45 +1,189 @@
-# Download Telegram Telegraph / telegra.ph / graph.org Media — Chrome Extension
+# Telegraph Media Downloader – Download Images & Videos from telegra.ph / graph.org
 
 ![Screenshot](screenshot.png)
 
-**Download any Telegram Telegraph (telegra.ph or graph.org) article media in one click.** Add the Chrome extension, open the page, and it downloads the full pack of photos, videos and GIFs as a ZIP — no copy-paste, no extra steps.
+**Download images, videos, and GIFs from Telegram Telegraph articles
+(telegra.ph or graph.org) in one click.**
 
-Search-friendly: *Telegraph download, telegra.ph download, graph.org download, Telegram photos download, Telegraph to ZIP, save Telegraph media.*
+This Chrome extension lets you **download all media from a Telegraph
+article as a ZIP file**. Open a page, click the extension, and instantly
+save the full gallery --- no copy-paste, no manual downloads.
 
----
+Works perfectly for **Telegram Telegraph posts shared in Telegram
+channels**.
 
-## What it does
+------------------------------------------------------------------------
 
-- **One-click download** — Open a Telegraph article (telegra.ph or graph.org) in Chrome, click the extension, click the button. You get a ZIP with all images and videos from that page.
-- **Works with Telegram links** — Telegraph is Telegram’s publishing platform; links from Telegram channels often open on telegra.ph or graph.org. This extension works on both.
+## SEO keywords
 
-## Installation
+Telegraph downloader, telegra.ph downloader, graph.org downloader,
+download Telegraph images, download Telegraph photos, Telegram Telegraph
+downloader, save Telegraph media, Telegraph media downloader, download
+Telegraph article images, Telegraph to ZIP.
 
-1. **Download the extension** — **[Direct download: telegraph-media-downloader-1.0.0.zip](https://github.com/alex-ageev/telegraph-media-downloader/raw/main/zip/telegraph-media-downloader-1.0.0.zip)** (build folder zipped in `zip/`). Unzip it on your computer.
-2. Open the **Extensions** page in your browser: go to `chrome://extensions/` (Chrome, Edge, Arc, Brave, etc.).
-3. Turn on **Developer mode** (toggle in the top-right corner).
-4. Click **Load unpacked** (top-left) and select the folder you just unzipped. The extension is installed.
+------------------------------------------------------------------------
 
-## Usage
+# Features
 
-1. Open the Telegraph article you want to download (a telegra.ph or graph.org link).
-2. Click the extension icon in the toolbar.
-3. Click **Download as ZIP**. All photos, videos and GIFs from that page are saved into one ZIP file.
+### One-click Telegraph media download
 
-If the current tab is not a Telegraph page, the popup will ask you to open one first.
+Open any **Telegraph article** (`telegra.ph` or `graph.org`), click the
+extension, and download **all images, videos and GIFs as a ZIP file**.
 
-## Development (for maintainers)
+### 🖼 Download full Telegraph galleries
 
-To create the direct-download ZIP: run `npm install`, then `npm run build`. The build outputs to `build/` and zips it into `zip/telegraph-media-downloader-1.0.0.zip`.
+Automatically detects and downloads **all media from the page** --- no
+need to save images manually.
 
-- `npm run build` — production build (output in `build/`, build zipped in `zip/`).
-- `npm start` — dev server (if configured).
+### Works with Telegram links
 
-## Permissions
+Many **Telegram channels publish long posts via Telegraph**. This
+extension works with those links instantly.
 
-- **telegra.ph**, **graph.org**, **api.telegra.ph**, **teletype.in** — to load article content and media.
-- **downloads** — to save the ZIP file.
+### Fast and simple
 
-## License
+No login, no setup, no copy-paste --- just click and download.
+
+------------------------------------------------------------------------
+
+# Supported websites
+
+The extension works with Telegraph-based publishing platforms:
+
+-   **telegra.ph**
+-   **graph.org**
+-   **api.telegra.ph**
+-   **teletype.in**
+
+These platforms are commonly used for **Telegram articles, image
+galleries, and long posts**.
+
+------------------------------------------------------------------------
+
+# Installation
+
+### 1️⃣ Download the extension
+
+Download the latest build:
+
+**[Download
+telegraph-media-downloader-1.0.0.zip](https://github.com/alex-ageev/telegraph-media-downloader/raw/main/zip/telegraph-media-downloader-1.0.0.zip)**
+
+Unzip the archive on your computer.
+
+------------------------------------------------------------------------
+
+### 2️⃣ Install the extension
+
+1.  Open your browser extension page:
+
+    chrome://extensions/
+
+Works with:
+
+-   Chrome\
+-   Edge\
+-   Brave\
+-   Arc\
+-   Chromium browsers
+
+2.  Enable **Developer mode** (top-right).
+
+3.  Click **Load unpacked**.
+
+4.  Select the **unzipped extension folder**.
+
+The extension is now installed.
+
+------------------------------------------------------------------------
+
+# Usage
+
+1.  Open a **Telegraph article**:
+
+    https://telegra.ph/...
+    https://graph.org/...
+
+2.  Click the **extension icon** in your browser toolbar.
+
+3.  Click **Download as ZIP**.
+
+The extension will automatically download:
+
+-   all **images**
+-   all **videos**
+-   all **GIFs**
+
+from the page into **one ZIP archive**.
+
+If the current tab is not a Telegraph page, the popup will ask you to
+open one first.
+
+------------------------------------------------------------------------
+
+# Example use cases
+
+This extension is useful for:
+
+-   downloading **Telegram Telegraph galleries**
+-   saving **Telegraph articles with images**
+-   archiving **Telegram channel media**
+-   downloading **telegra.ph photo collections**
+-   backing up **graph.org posts**
+
+------------------------------------------------------------------------
+
+# Development (for maintainers)
+
+To create the direct-download ZIP:
+
+    npm install
+    npm run build
+
+The build will:
+
+-   compile the extension into `build/`
+-   generate the ZIP archive in `zip/`
+
+Example output:
+
+    build/
+    zip/telegraph-media-downloader-1.0.0.zip
+
+### Commands
+
+    npm run build
+
+Production build.
+
+    npm start
+
+Development mode (if configured).
+
+------------------------------------------------------------------------
+
+# Permissions
+
+The extension requires the following permissions:
+
+**Domains**
+
+-   `telegra.ph`
+-   `graph.org`
+-   `api.telegra.ph`
+-   `teletype.in`
+
+Used to load Telegraph article content and media.
+
+**downloads**
+
+Allows saving the generated ZIP file to the user's computer.
+
+------------------------------------------------------------------------
+
+# License
 
 MIT
+
+⭐ If you find this project useful, consider **starring the repository
+on GitHub**.
