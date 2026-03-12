@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+# zip/ — keep the zip so README direct-download link works (commit zip/telegraph-media-downloader-1.0.0.zip)
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets (if used)
+secrets.*.js
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional
+*.log
+.env
+.env.local

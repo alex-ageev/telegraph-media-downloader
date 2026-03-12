@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Telegraph Media Downloader",
+  "description": "Download any Telegram Telegraph (telegra.ph / graph.org) media. Add the Chrome extension — one click downloads the full pack of photos, videos and GIFs as a ZIP.",
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.bundle.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon-34.png"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "devtools_page": "devtools.html",
+  "web_accessible_resources": [
+    {
+      "resources": ["content.styles.css", "icon-128.png", "icon-34.png"],
+      "matches": []
+    }
+  ],
+  "host_permissions": [
+    "https://telegra.ph/*",
+    "https://graph.org/*",
+    "https://api.telegra.ph/*",
+    "https://*.teletype.in/*",
+    "<all_urls>"
+  ],
+  "permissions": [
+    "downloads",
+    "activeTab",
+    "https://telegra.ph/*",
+    "https://graph.org/*",
+    "https://api.telegra.ph/*",
+    "https://*.teletype.in/*",
+    "<all_urls>"
+  ]
+}
