@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Telegraph Media Downloader",
-  "description": "Download any Telegram Telegraph (telegra.ph / graph.org) media. Add the Chrome extension — one click downloads the full pack of photos, videos and GIFs as a ZIP.",
+  "name": "Telegraph Media Downloader – Export Media, PDF & Markdown",
+  "description": "Export Telegraph articles: download media as ZIP, export as PDF with images & captions, or export as Markdown. Works on telegra.ph and graph.org.",
   "options_page": "options.html",
   "background": {
     "service_worker": "background.bundle.js"
@@ -30,6 +30,7 @@
   "permissions": [
     "downloads",
     "activeTab",
+    "scripting",
     "https://telegra.ph/*",
     "https://graph.org/*",
     "https://api.telegra.ph/*",

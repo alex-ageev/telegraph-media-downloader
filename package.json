@@ -1,7 +1,7 @@
 {
   "name": "telegraph-media-downloader",
   "version": "1.0.0",
-  "description": "Download any Telegram Telegraph (telegra.ph / graph.org) media. Chrome extension — one click and it downloads the full pack of photos, videos and GIFs as a ZIP.",
+  "description": "Telegraph Media Downloader – Export media, PDF & Markdown from telegra.ph and graph.org.",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "dependencies": {
+    "jspdf": "^2.5.2",
     "jszip": "^3.10.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
